@@ -35,4 +35,12 @@ object Trees {
   val R1_2 = addAll2(T)
   val R2_2 = addAll2(Cons(7, T, T))
 
+  def addAll3 = (tree) => addAll2(tree)
+
+  val R1_3 = addAll3(T)
+  val R2_3 = addAll3(Cons(7, T, T))
+
+
+
+
 }
